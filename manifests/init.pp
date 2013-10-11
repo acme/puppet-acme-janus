@@ -37,5 +37,46 @@
 #
 class janus {
 
+  if(!defined(Package['ack'])) {
+    package { 'ack':
+      ensure => present,
+    }
+  }
+
+  if(!defined(Package['bash'])) {
+    package { 'bash':
+      ensure => present,
+    }
+  }
+
+  if(!defined(Package['ctags'])) {
+    package { 'ctags':
+      ensure => present,
+    }
+  }
+
+  if(!defined(Package['curl'])) {
+    package { 'curl':
+      ensure => present,
+    }
+  }
+
+  if(!defined(Package['git'])) {
+    package { 'git':
+      ensure => present,
+    }
+  }
+
+  if(!defined(Package['ruby'])) {
+    package { 'ruby':
+      ensure => present,
+    }
+  }
+
+  if(!defined(Package['rake'])) {
+    package { 'rake':
+      ensure => present,
+    }
+  }
 
 }
