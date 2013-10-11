@@ -1,11 +1,11 @@
 name    'acme-janus'
 version '0.1.0'
-source 'UNKNOWN'
+source 'https://github.com/acme/puppet-acme-janus'
 author 'acme'
 license 'Apache License, Version 2.0'
-summary 'UNKNOWN'
-description 'UNKNOWN'
-project_page 'UNKNOWN'
+summary 'Janus module'
+description 'This is the Janus module. It installs Janus for a user'
+project_page 'https://github.com/acme/puppet-acme-oh-my-zsh'
 
 ## Add dependencies, if any:
 # dependency 'username/name', '>= 1.2.0'

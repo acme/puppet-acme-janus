@@ -1,39 +1,30 @@
 # == Class: janus
 #
-# Full description of class janus here.
+# This is the Janus module. It installs Janus for a user. It has been tested
+# under Ubuntu.
+#
+# Janus is a distribution of plug-ins and mappings for Vim, Gvim and MacVim.
 #
 # === Parameters
 #
-# Document parameters here.
-#
-# [*sample_parameter*]
-#   Explanation of what this parameter affects and what it defaults to.
-#   e.g. "Specify one or more upstream ntp servers as an array."
+# None.
 #
 # === Variables
 #
-# Here you should define a list of variables that this module would require.
-#
-# [*sample_variable*]
-#   Explanation of how this variable affects the funtion of this class and if
-#   it has a default. e.g. "The parameter enc_ntp_servers must be set by the
-#   External Node Classifier as a comma separated list of hostnames." (Note,
-#   global variables should be avoided in favor of class parameters as
-#   of Puppet 2.6.)
+# None.
 #
 # === Examples
 #
-#  class { janus:
-#    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
-#  }
+# class { 'janus': }
+# janus::install { 'acme': }
 #
 # === Authors
 #
-# Author Name <author@domain.com>
+# Leon Brocard <acme@astray.com>
 #
 # === Copyright
 #
-# Copyright 2013 Your name here, unless otherwise noted.
+# Copyright 2013 Leon Brocard
 #
 class janus {
 

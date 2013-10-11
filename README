@@ -1,16 +1,27 @@
 janus
 
-This is the janus module.
+This is the Janus module. It installs Janus for a user. It has been tested
+under Ubuntu.
+
+Janus is a distribution of plug-ins and mappings for Vim, Gvim and MacVim.
+
+class { 'janus': }
+janus::install { 'acme': }
+
 
 License
 -------
+
+Apache License, Version 2.0.
 
 
 Contact
 -------
 
+Leon Brocard acme@astray.com
+
 
 Support
 -------
 
-Please log tickets and issues at our [Projects site](http://projects.example.com)
+Please log tickets and issues at [GitHub](https://github.com/acme/puppet-janus/)
