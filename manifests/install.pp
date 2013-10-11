@@ -34,7 +34,7 @@ define janus::install() {
     environment => "HOME=/home/${name}/",
     user        => $name,
     require     => [
-      Package['ack','bash','ctags', 'curl', 'git', 'ruby', 'rake']
+      Package['ack','bash','exuberant-ctags', 'curl', 'git', 'ruby', 'rake']
     ]
   }
 }

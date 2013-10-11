@@ -40,8 +40,8 @@ class janus {
     }
   }
 
-  if(!defined(Package['ctags'])) {
-    package { 'ctags':
+  if(!defined(Package['exuberant-ctags'])) {
+    package { 'exuberant-ctags':
       ensure => present,
     }
   }
