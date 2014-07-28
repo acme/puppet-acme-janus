@@ -28,8 +28,8 @@
 #
 class janus {
 
-  if(!defined(Package['ack'])) {
-    package { 'ack':
+  if(!defined(Package['ack-grep'])) {
+    package { 'ack-grep':
       ensure => present,
     }
   }
